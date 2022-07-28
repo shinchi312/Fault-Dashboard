@@ -1,0 +1,358 @@
+:root {
+    --bs-blue: #2D9CF3;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #FF4C27;
+    --bs-orange: #FFA724;
+    --bs-yellow: #ffc107;
+    --bs-green: #2DF39C;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #787878;
+    --bs-gray-dark: #232126;
+    --bs-gray-100: #F8F8F8;
+    --bs-gray-200: #DFDFDF;
+    --bs-gray-300: #C5C5C5;
+    --bs-gray-400: #ABABAB;
+    --bs-gray-500: #9B96A4;
+    --bs-gray-600: #787878;
+    --bs-gray-700: #5F5F5F;
+    --bs-gray-800: #232126;
+    --bs-gray-900: #101010;
+    --bs-primary: #5B2FE2;
+    --bs-secondary: #9B96A4;
+    --bs-success: #17C9A9;
+    --bs-info: #BEE0FB;
+    --bs-warning: #ffc398;
+    --bs-danger: #FFCBC0;
+    --bs-light: #F8F8F8;
+    --bs-dark: #101010;
+    --bs-primary-light: #F4F0FF;
+    --bs-secondary-light: #F8F8F8;
+    --bs-success-light: #83FF8F;
+    --bs-info-light: #EEF7FE;
+    --bs-warning-light: #FFF9F0;
+    --bs-danger-light: #FFF5F3;
+    --bs-light-light: #FEFEFE;
+    --bs-dark-light: #232126;
+    --bs-primary-dark: #AA8AFF;
+    --bs-secondary-dark: #C5C5C5;
+    --bs-success-dark: #8DF9C9;
+    --bs-info-dark: #8DC9F9;
+    --bs-warning-dark: #FFD08A;
+    --bs-danger-dark: #FFA18D;
+    --bs-light-dark: #C5C5C5;
+    --bs-primary-rgb: 91, 47, 226;
+    --bs-secondary-rgb: 155, 150, 164;
+    --bs-success-rgb: 23, 201, 169;
+    --bs-info-rgb: 190, 224, 251;
+    --bs-warning-rgb: 255, 195, 152;
+    --bs-danger-rgb: 255, 203, 192;
+    --bs-light-rgb: 248, 248, 248;
+    --bs-dark-rgb: 16, 16, 16;
+    --bs-primary-light-rgb: 238, 0, 255;
+    --bs-secondary-light-rgb: 0, 203, 255;
+    --bs-success-light-rgb: 131, 255, 143;
+    --bs-info-light-rgb: 238, 247, 254;
+    --bs-warning-light-rgb: 255, 249, 240;
+    --bs-danger-light-rgb: 255, 245, 243;
+    --bs-light-light-rgb: 254, 254, 254;
+    --bs-dark-light-rgb: 35, 33, 38;
+    --bs-primary-dark-rgb: 140, 0, 255;
+    --bs-secondary-dark-rgb: 197, 197, 197;
+    --bs-success-dark-rgb: 141, 249, 201;
+    --bs-info-dark-rgb: 141, 201, 249;
+    --bs-warning-dark-rgb: 255, 208, 138;
+    --bs-danger-dark-rgb: 255, 161, 141;
+    --bs-light-dark-rgb: 197, 197, 197;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 35, 33, 38;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: Readex Pro, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #232126;
+    --bs-body-bg: #fff;
+}
+body{
+background-color: #EFF2F9;
+overflow-x : hidden;
+}
+.orange-color{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
+}
+.purple-color{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-primary-light-rgb), var(--bs-bg-opacity)) !important;
+}
+.dark-purple-color{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-primary-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+.light-blue-color{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-secondary-light-rgb), var(--bs-bg-opacity)) !important;
+}
+.blue-color {
+    color: #4DA1FF;
+}
+ 
+.green-color {
+    color:#6CB46C;
+    
+}
+ 
+.teal-color {
+    color:teal;
+}
+ 
+.yellow-color {
+color:yellow;
+}
+
+.red-color {
+   color: #FF6D4A;
+}
+.breadcrumb-item a{
+    color: #6c757d;
+    
+    
+}
+.breadcrumb-item.active{
+    font-weight: bold;
+}
+#horizontal-list{
+    margin-bottom: 0rem;
+    font-size : 0.8rem;
+    background-color: #EFF2F9 !important;
+    
+    
+    
+}
+ol#horizontal-list li{
+display: inline;
+
+
+}
+.card{
+    
+    background: #FFFFFF;
+box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.02);
+border-radius: 15px;
+}
+
+.rectangle{
+    
+    width: 100px;
+    height: 58px;
+    
+    
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #EFF3F8;
+    border-radius: 5px;
+}
+
+
+.navbar-default{
+    background: linear-gradient(116.5deg, #3159E4 24.74%, #1F4095 115.47%);
+}
+
+.icons{
+   
+color: #98A1E8;
+
+
+
+
+}
+ul#secnav .active{
+    
+    border-bottom: 1px solid var(--mdb-primary);
+    color: var(--mdb-primary);
+    
+}
+
+.indicator{
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left:60%;
+    bottom: 60%;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    background-color: #fa5c7c;}
+
+.navbar-nav >li{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+letter-spacing: -0.1px;
+
+
+
+
+}
+.red-bar{
+    position: relative;
+width: 130px;
+height: 4px;
+
+
+background: #FF6D4A;
+border-radius: 15px;
+}
+.green-bar{
+    position: absolute;
+width: 137px;
+height: 4px;
+
+
+background: #6CB46C;
+border-radius: 15px;
+}
+.blue-bar{
+    position: relative;
+width: 137px;
+height: 4px;
+
+
+background: #4DA1FF;
+border-radius: 15px;
+}
+
+.fail{
+   
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 26.1538px;
+line-height: 34px;
+/* identical to box height, or 130% */
+
+display: flex;
+align-items: center;
+
+
+}
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+   
+height: 13px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-transform: capitalize;
+
+color: #202020;
+}
+.border-card{
+    background: #FFFFFF;
+    padding-bottom:0px;
+   
+    /* border-image: linear-gradient(90deg, #4DA1FF var(--progress), #FF6D4A 0%, #FF6D4A 50%) 1; */
+    
+box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.02);
+border-radius: 15px;
+
+
+/* border-bottom: 4px solid brown; */
+
+   
+      
+   
+  
+  
+  
+  
+}
+.eclipse-16{
+    position: absolute;
+width: 120.72px;
+height: 42.37px;
+
+
+background: #0A13A1;
+transform: matrix(0.99, -0.11, 0.14, 0.99, 0, 0);
+}
+.text2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: right;
+
+color: white;
+}
+
+.dot{
+width: 12px;
+height: 12px;
+
+
+border-radius: 6.89813px;
+
+/* Inside auto layout */
+
+}
+.text3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.0956px;
+    line-height: 28px;
+    /* identical to box height, or 171% */
+    
+    letter-spacing: 0.114969px;
+    
+    color: #44444F;
+    
+
+}
+.text4{
+    font-family: 'Roboto';
+                    font-style: normal;
+                    
+                    font-size: 16.0956px;
+                    line-height: 17px;
+                    /* identical to box height */
+                    
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    
+                    color: #354052;
+}
